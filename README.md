@@ -55,6 +55,6 @@ EOF
 ```
 
 ### Save your time with the following official docs.
-  https://i3wm.org/docs/userguide.html is also a nice place.   
-  and the rest of videos on  https://www.youtube.com/watch?v=j1I63wGcvU4   
+  https://i3wm.org/docs/userguide.html is a nice place.   
+  watch through the rest of videos of https://www.youtube.com/watch?v=j1I63wGcvU4 on i3.   
   
