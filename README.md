@@ -9,15 +9,15 @@ recalling steps to replicate this setup
   install dmenu - the mandatory application lancher.   
 ```
 sudo apt install i3status i3lock i3 dmenu
-sudo reboot
+sudo reboot #dmenu requires reboot to kick-in.
 ```
+
   upon reboot, chose i3 window manager through log-in screen.   
-  you will be served a first time wizard (or run i3-config-wizard in your terminal)  
+  you will be served a first time wizard (or run i3-config-wizard in your terminal).  
   opt to create a config file & chose your modkey. I use ALT.   
   
-### note
-its useful to know the following before going to step 2   
-modkey + enter will give you a terminal.
+### note: 
+it's useful to know that modkey + enter will give you a terminal.     
 
 ### Step 2) 
   two config files exist to configure i3 window manager and i3blocks.   
@@ -37,7 +37,6 @@ bar {
 }
 ```
   press MODKEY + R to reload the configs to i3        
-  its better to offer a restart upon the first install for dmenu to kick in.
 
 ### Save your time with the following official docs.
   https://i3wm.org/docs/userguide.html is also a nice place.   
