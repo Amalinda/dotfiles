@@ -36,7 +36,23 @@ bar {
 #       status_command i3status
 }
 ```
-  press MODKEY + R to reload the configs to i3        
+  press MODKEY + R to reload the configs to i3    
+  
+### enable touch to click for touchpads
+if you did install on a laptop, i3 will not this feature by default. The following will add it in.   
+courtesy : https://cravencode.com/post/essentials/enable-tap-to-click-in-i3wm/
+
+```
+sudo mkdir -p /etc/X11/xorg.conf.d && sudo tee <<'EOF' /etc/X11/xorg.conf.d/90-touchpad.conf 1> /dev/null
+Section "InputClass"
+        Identifier "touchpad"
+        MatchIsTouchpad "on"
+        Driver "libinput"
+        Option "Tapping" "on"
+EndSection
+
+EOF
+```
 
 ### Save your time with the following official docs.
   https://i3wm.org/docs/userguide.html is also a nice place.   
