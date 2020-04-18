@@ -8,7 +8,7 @@ recalling steps to replicate this setup
   install i3blocks - a more interesting status bar. I use this.   
   install dmenu - the mandatory application lancher.   
 ```
-sudo apt install i3status i3lock i3 dmenu
+sudo apt install i3status i3blocks i3 dmenu
 sudo reboot #dmenu requires reboot to kick-in.
 ```
 
