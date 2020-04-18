@@ -38,7 +38,7 @@ bar {
 ```
   press MODKEY + R to reload the configs to i3    
   
-### enable touch to click for touchpads
+### enable tap-to-click for touchpads
 if you did install on a laptop, i3 will not this feature by default. The following will add it in.   
 courtesy : https://cravencode.com/post/essentials/enable-tap-to-click-in-i3wm/
 
